@@ -1,8 +1,10 @@
 # pubnubChatAndHangman
 Using PubNub's AngularJS SDK, I made this chat app with a small Hangman game (JS code loosely based on: http://codepen.io/offline_blogger/pen/Kedtr). 
 For this, I kept it simple (and the following steps are even more simplified.)
-* Initiated PubNub by a. Creating a free account at https://www.pubnub.com
-                      b. Generating a set of keys: Publish Key and Subscribe Key
+* Initiated PubNub by   
+  + Creating a free account at https://www.pubnub.com
+                        
+  + Generating a set of keys: Publish Key and Subscribe Key
 * Created a channel (here, it's the DisneyChannel--haha) before subscribing to it. This subscribe function is where received messages are called back to.
 * Made up user ID's for those who would use the chat app. Each user is assigned a random letter from the alphabet (this is assuming no more than 26 users will be on--once midterms are over, I will hone this more and fix this!!)
 * Created a publish function, which displays messages users type.
