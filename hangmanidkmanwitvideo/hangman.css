@@ -1,0 +1,44 @@
+body {
+	/*background-color: purple; */
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	
+}
+input {
+	border: 2px solid #999;
+	font-family: Helvetica, sans-serif;
+	color: #999;
+}
+
+h1 {
+	font-family: 'Permanent Marker', 'cursive';
+}
+
+li { /* no bullet points!!*/
+	list-style-type: none;
+}
+
+.wrapper { /*hangman*/
+	position: absolute;
+	top: 28%;
+	left: 12%;
+	background-color: purple;
+	height: 27%;
+	width: 30%;
+}
+
+.container { /*chat */
+	position: absolute;
+	background-color: #ff4d4d;
+  	top: 65%;
+  	right: 0%;
+  	left: 0%;
+  	width: 100%;
+
+}
+
+footer {
+	font-weight: 2px;
+	color: blue;
+}
+
