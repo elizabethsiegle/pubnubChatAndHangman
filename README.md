@@ -1,5 +1,5 @@
 # pubnubChatAndHangman
-Using PubNub's AngularJS SDK, I made this extremely basic chat app with a small Hangman game (JS code loosely based on: http://codepen.io/offline_blogger/pen/Kedtr). 
+Using PubNub's AngularJS SDK, I made this extremely basic chat app with a small Hangman game (JS code loosely based on: http://codepen.io/offline_blogger/pen/Kedtr). The actual code did not take very long, because the documentation was so helpful.
 For this, I kept it simple (and the following steps are even more simplified.)
 * Initiated PubNub by   
   + Creating a free account at https://www.pubnub.com
